@@ -1,3 +1,79 @@
-h1 {
-  color: salmon;
+body {
+  background-color: rgb(211, 210, 209);
+  position: relative;
 }
+
+h1 {
+  color: rgb(100, 97, 96);
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: medium;
+  margin-top: 50px;
+  
+}
+
+h2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+  color: rgb(255, 255, 255);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+  font-weight: medium;
+}
+
+h5 {
+  color: rgb(100, 97, 96);
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
+  font-size: 18px;
+  margin-top: -15px;
+  margin-bottom: 80px;
+}
+
+
+img {
+  height: 350px;
+}
+
+.square {
+  width: 350px;
+  object-fit: cover;
+}
+
+.button {
+  height: 100px;
+  position: relative;
+  
+}
+
+button {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  height: 50px;
+  width: 350px;
+  font-size: medium;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 20px;
+  margin-bottom: 100px;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+
